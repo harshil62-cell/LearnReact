@@ -13,7 +13,11 @@ import HandleRadioandDropdown from './components/HandleRadioandDropdown'
 import Loopinjsx from './components/Loopinjsx'
 import ClockComponent from './components/ClockComponent'
 import SelectColor from './components/SelectColor'
-
+import UseEffectdemo from './components/UseEffectdemo'
+// git reference for future-steps to commit to git repo 
+// git add .
+// git commit -m "Descriptive commit message"
+// git push
 function App() {
   let user={
     name:"Harshil",
@@ -22,7 +26,7 @@ function App() {
 
   return (
     <div>
-      <SelectColor/>
+      <UseEffectdemo/>
     </div>
   )
 }
