@@ -14,6 +14,7 @@ import Loopinjsx from './components/Loopinjsx'
 import ClockComponent from './components/ClockComponent'
 import SelectColor from './components/SelectColor'
 import UseEffectdemo from './components/UseEffectdemo'
+import Counter from './components/Counter'
 // git reference for future-steps to commit to git repo 
 // git add .
 // git commit -m "Descriptive commit message"
@@ -24,9 +25,14 @@ function App() {
     college:"SPIT"
   }
 
+  const [count,setCount]=useState(0);
+  const [data,setData]=useState(0);
+
   return (
     <div>
-      <UseEffectdemo/>
+      <Counter count={count} data={data}/>
+      <button onClick={()=>{setCount(count+1)}}>counter</button>
+      <button onClick={()=>{setData(data+1)}}>Data</button>
     </div>
   )
 }
