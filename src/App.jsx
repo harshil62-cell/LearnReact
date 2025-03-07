@@ -25,6 +25,13 @@ import Userefhook from './components/Userefhook'
 import Uncontrolledcomp from './components/Uncontrolledcomp'
 import Passfnsasprops from './components/Passfnsasprops'
 import Forwardreflearn from './components/Forwardreflearn'
+import Useformstatushook from './components/Useformstatushook'
+import UseTransitionhookdemo from './components/UseTransitionhookdemo'
+import Derivedstatedemo from './components/Derivedstatedemo'
+import Liftingstateup from './components/Liftingstateup'
+import Updateobjinstate from './components/Updateobjinstate'
+import Useactionstatehook from './components/Useactionstatehook'
+import Useidhook from './components/Useidhook'
 // git reference for future-steps to commit to git repo 
 // git add .
 // git commit -m "Descriptive commit message"
@@ -51,12 +58,13 @@ function App() {
       {/* <Counter count={count} data={data}/>
       <button onClick={()=>{setCount(count+1)}}>counter</button>
       <button onClick={()=>{setData(data+1)}}>Data</button> */}
-      <h1>call parent function from child component</h1>
+      {/* <h1>call parent function from child component</h1> */}
       {/* <Passfnsasprops/>
       <Passfnsasprops displayName={displayName}/> */}
 
-      <Forwardreflearn reference={inputRef}/>
-      <button onClick={updateInput}>click</button>
+      {/* <Forwardreflearn reference={inputRef}/>
+      <button onClick={updateInput}>click</button> */}
+      <Useidhook/>
     </div>
   )
 }
