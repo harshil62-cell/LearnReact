@@ -32,6 +32,8 @@ import Liftingstateup from './components/Liftingstateup'
 import Updateobjinstate from './components/Updateobjinstate'
 import Useactionstatehook from './components/Useactionstatehook'
 import Useidhook from './components/Useidhook'
+import Contextapi from './components/Contextapi'
+import Customhook from './components/Customhook'
 // git reference for future-steps to commit to git repo 
 // git add .
 // git commit -m "Descriptive commit message"
@@ -64,7 +66,7 @@ function App() {
 
       {/* <Forwardreflearn reference={inputRef}/>
       <button onClick={updateInput}>click</button> */}
-      <Useidhook/>
+      
     </div>
   )
 }
